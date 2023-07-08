@@ -32,7 +32,7 @@ hbs.registerPartials(partials_path);
  app.get("*", (req, res) => {
     res.render('404error', {
       // props 
-      errorMsg: 'Opps! Page Not Found'
+      errorMsg: 'Opps! Page Not Found, Pls Go Back'
     });
  });
  app.listen(port, () => {
